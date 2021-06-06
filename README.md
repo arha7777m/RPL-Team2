@@ -5,7 +5,7 @@
   </a>
   <h3 align="center">SC-INFO</h3>
   <p align="center">
-    Paralel 1 Kelompok 2 (Asisten Praktikum: Indah Puspita dan Qoriatul Khairunnisa)
+    Paralel 1 Kelompok 2
   </p>
   <p align="center"> Asprak : Indah Puspita, Qoriatul Khairunnisa </p>
 </p>
