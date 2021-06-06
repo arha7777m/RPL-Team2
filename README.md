@@ -95,7 +95,14 @@ Html, CSS, PHP, MySQL
 
 
 ### 4. Entity Relationship Diagram
-lupa blum keupload :)
+<br />
+<p align="center">
+
+  <a href="https://github.com/github_username/repo_name">
+    <img src="lord_yosar/erd.jpg" alt="Logo" width="499" height="249">
+  </a>
+  <p align="center">ERD</p>
+</p>
 
 
 ### 5. Arsitektur sistem
@@ -116,12 +123,28 @@ posting, search, komen
 
 ## Hasil implementasi
 ### Screenshot sistem
-(gambarnya ntar diapasang)
+<br />
+<p align="center">
+
+  <img src="lord_yosar/screenshot_1.jpg" alt="Logo" width="639" height="449">
+  <img src="lord_yosar/screenshot_2.jpg" alt="Logo" width="639" height="449">
+  <img src="lord_yosar/screenshot_3.jpg" alt="Logo" width="639" height="449">
+  <p align="center">Screenshot</p>
+</p>
+
+
+
 ### Link aplikasi (jika sudah di deploy)
-(blum deploy kn?)
+http://infosc.epizy.com/
+
 ## Testing (Test cases)
-### Positive Cases
-(emmmm)
-### Negative Cases (Optional, jika ada jadi nilai tambah)
+<br />
+<p align="center">
+
+  <img src="lord_yosar/testcase.jpg" alt="Logo" width="852" height="462">
+  <p align="center">Testcase</p>
+</p>
+
+
 ## Saran untuk pengembangan selanjutnya
 (mohon sarannya)
