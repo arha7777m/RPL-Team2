@@ -118,9 +118,20 @@ Html, CSS, PHP, MySQL
 
 
 ### 6. Fungsi utama yang dikembangkan
-posting, search, komen 
+* Cari    : Mencari mata kuliah berdasarkan nama
+* Posting : Memposting sebuah topik di halaman discuss
+* Komen   : Mengomentari sebuah postingan
 ### 7. Fungsi CRUD
-
+1. Akun
+  * Create  : User dapat membuat akun baru
+  * Read    : Web dapat mengambil data dari user saat register atau edit profile
+  * Update  : User dapat mengganti data dari akun
+  * Delete  : Admin dapat menghapus data user
+2. Mata Kuliah
+  * Create  : Admin dapat membuat data matkul baru
+  * Read    : Web dapat mengambil data mata kuliah sehingga user dapat mencari mata kuliah melalui fitur search
+  * Update  : Admin dapat membuat perubahan pada data mata kuliah
+  * Delete  : Admin dapat menghapus data mata kuliah
 ## Hasil implementasi
 ### Screenshot sistem
 <br />
@@ -147,4 +158,4 @@ http://infosc.epizy.com/
 
 
 ## Saran untuk pengembangan selanjutnya
-memperbaiki tampilan dan menambahkan fitur-fitur di web, terutama fitur plan.
+Memperbaiki tampilan dan menambahkan fitur-fitur di web, terutama fitur plan.
