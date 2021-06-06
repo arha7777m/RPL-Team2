@@ -1,6 +1,5 @@
 <br />
 <p align="center">
-
   <a href="https://github.com/github_username/repo_name">
     <img src="lord_yosar/logo.jpeg" alt="Logo" width="425" height="142">
   </a>
@@ -12,32 +11,20 @@
   <p align="center"> Asprak : Indah Puspita, Qoriatul Khairunnisa </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Nama Anggota</h2></summary>
-  <ol>
-    <li>
-      Arhammirza Ibrahim (G64190007) -> Ketua, FullStack
-    </li>
-    <li>
-      Aryo Aditya (G64190008) -> BackEnd
-    </li>
-    <li>Sigit Raditya Pangestu (G64190071) -> FrontEnd</li>
-    <li>Yosar Awandi Porseda (G64190076) -> Quality Assurance</li>
-  </ol>
-</details>
-
-
+<summary><h2 style="display: inline-block">Nama Anggota</h2></summary>
+<ol>
+  <li>Arhammirza Ibrahim (G64190007) -> Ketua, Fullstack Developer </li>
+  <li>Aryo Aditya (G64190008) -> Backend Devloper </li>
+  <li>Sigit Raditya Pangestu (G64190071) -> Frontend Developer </li>
+  <li>Yosar Awandi Porseda (G64190076) -> Quality Assurance</li>
+</ol>
 
 <!-- ABOUT THE PROJECT -->
 ## Deskripsi Singkat Aplikasi
-
 SC-Info adalah aplikasi berbasis web yang berguna untuk memudahkan
 mahasiswa mendapatkan informasi terkait mata kuliah supporting course. Aplikasi ini
 memiliki fitur ....(fiturnya yg jadi apa aja bro?).
-
 
 ## User Analysis
 ### User Story
@@ -58,12 +45,12 @@ memiliki fitur ....(fiturnya yg jadi apa aja bro?).
 * Graphics Card : Intel HD 4000 Graphic
 * RAM : 8 GB
 ### Tech Stack
-Html, CSS, PHP, MySQL
+-Html, CSS, Javascript, PHP, MySQL
+
 ## Hasil dan pembahasan
 ### 1. Use Case Diagram
 <br />
 <p align="center">
-
   <a href="https://github.com/github_username/repo_name">
     <img src="lord_yosar/User_Diagram.jpg" alt="Logo" width="581" height="401">
   </a>
@@ -72,9 +59,8 @@ Html, CSS, PHP, MySQL
 
 
 ### 2. Activity Diagram
-<br />
+<br>
 <p align="center">
-
   <a href="https://github.com/github_username/repo_name">
     <img src="lord_yosar/activity.png" alt="Logo" width="900" height="420">
   </a>
@@ -83,21 +69,17 @@ Html, CSS, PHP, MySQL
 
 
 ### 3. Class Diagram
-<br />
+<br>
 <p align="center">
-
   <a href="https://github.com/github_username/repo_name">
     <img src="lord_yosar/class.png" alt="Logo" width="820" height="521">
   </a>
   <p align="center">Class Diagram</p>
 </p>
 
-
-
 ### 4. Entity Relationship Diagram
-<br />
+<br>
 <p align="center">
-
   <a href="https://github.com/github_username/repo_name">
     <img src="lord_yosar/erd.jpg" alt="Logo" width="499" height="249">
   </a>
@@ -106,16 +88,13 @@ Html, CSS, PHP, MySQL
 
 
 ### 5. Arsitektur sistem
-<br />
+<br>
 <p align="center">
-
   <a href="https://github.com/github_username/repo_name">
     <img src="lord_yosar/arsitektur.png" alt="Logo" width="652" height="597">
   </a>
   <p align="center">Arsitektur diagram</p>
 </p>
-
-
 
 ### 6. Fungsi utama yang dikembangkan
 * Cari    : Mencari mata kuliah berdasarkan nama
@@ -134,28 +113,24 @@ Html, CSS, PHP, MySQL
   * Delete  : Admin dapat menghapus data mata kuliah
 ## Hasil implementasi
 ### Screenshot sistem
-<br />
+<br>
 <p align="center">
-
   <img src="lord_yosar/screenshot_1.jpg" alt="Logo" width="639" height="449">
   <img src="lord_yosar/infosc1.png" alt="Logo" width="639" height="449">
   <img src="lord_yosar/screenshot_3.jpg" alt="Logo" width="639" height="449">
   <p align="center">Screenshot</p>
 </p>
 
-
-
 ### Link aplikasi
-http://infosc.epizy.com/
+-http://infosc.epizy.com/
 
 ## Testing (Test cases)
-<br />
+<br>
 <p align="center">
-
   <img src="lord_yosar/testcase.jpg" alt="Logo" width="852" height="462">
   <p align="center">Testcase</p>
 </p>
 
 
 ## Saran untuk pengembangan selanjutnya
-Memperbaiki tampilan dan menambahkan fitur-fitur di web, terutama fitur plan.
+-Memperbaiki tampilan dan menambahkan fitur-fitur di web, terutama fitur plan.
