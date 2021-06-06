@@ -11,7 +11,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-##Nama Anggota
+## Nama Anggota
 <ol>
   <li>Arhammirza Ibrahim (G64190007) -> Ketua, Fullstack Developer </li>
   <li>Aryo Aditya (G64190008) -> Backend Devloper </li>
