@@ -10,9 +10,8 @@
   <p align="center"> Asprak : Indah Puspita, Qoriatul Khairunnisa </p>
 </p>
 
-#Laporan
 <!-- TABLE OF CONTENTS -->
-<summary><h2 style="display: inline-block">Nama Anggota</h2></summary>
+##Nama Anggota
 <ol>
   <li>Arhammirza Ibrahim (G64190007) -> Ketua, Fullstack Developer </li>
   <li>Aryo Aditya (G64190008) -> Backend Devloper </li>
