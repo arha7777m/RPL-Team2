@@ -44,7 +44,7 @@ memiliki beberapa fitur, yaitu search-sc, plan-sc, dan discuss-sc.
 * Graphics Card : Intel HD 4000 Graphic
 * RAM : 8 GB
 ### Tech Stack
--Html, CSS, Javascript, PHP, MySQL
+- Html, CSS, Javascript, PHP, MySQL
 
 ## Hasil dan pembahasan
 ### 1. Use Case Diagram
@@ -93,17 +93,16 @@ memiliki beberapa fitur, yaitu search-sc, plan-sc, dan discuss-sc.
 </p>
 
 ### 6. Fungsi utama yang dikembangkan
-* Cari    : Mencari mata kuliah berdasarkan nama
-* Posting : Memposting sebuah topik di halaman discuss
-* Komen   : Mengomentari sebuah postingan
+* Search-sc   : Mencari mata kuliah berdasarkan nama
+* Discuss-sc  : Forum diskusi antar mahasiswa terkait supporting course
 
 ### 7. Fungsi CRUD
-1. Akun
+- Akun
   * Create  : User dapat membuat akun baru
   * Read    : Web dapat mengambil data dari user saat register atau edit profile
   * Update  : User dapat mengganti data dari akun
   * Delete  : Admin dapat menghapus data user
-2. Mata Kuliah
+- Mata Kuliah
   * Create  : Admin dapat membuat data matkul baru
   * Read    : Web dapat mengambil data mata kuliah sehingga user dapat mencari mata kuliah melalui fitur search
   * Update  : Admin dapat membuat perubahan pada data mata kuliah
@@ -114,9 +113,9 @@ memiliki beberapa fitur, yaitu search-sc, plan-sc, dan discuss-sc.
 ### Screenshot sistem
 <br>
 <p align="center">
-  <img src="lord_yosar/screenshot_1.jpg" alt="Logo" width="639" height="449">
-  <img src="lord_yosar/infosc1.png" alt="Logo" width="639" height="449">
-  <img src="lord_yosar/screenshot_3.jpg" alt="Logo" width="639" height="449">
+  <img src="lord_yosar/screenshot_1.jpg" alt="Logo" width="639" height="449"> <br>
+  <img src="lord_yosar/infosc1.png" alt="Logo" width="639" height="449"> <br>
+  <img src="lord_yosar/screenshot_3.jpg" alt="Logo" width="639" height="449"> <br>
   <p align="center">Screenshot</p>
 </p>
 
@@ -133,4 +132,4 @@ memiliki beberapa fitur, yaitu search-sc, plan-sc, dan discuss-sc.
 
 
 ## Saran untuk pengembangan selanjutnya
--Memperbaiki tampilan dan menambahkan fitur-fitur di web, terutama fitur plan.
+- Memperbaiki tampilan dan menambahkan fitur-fitur di web, terutama fitur plan.
