@@ -4,7 +4,6 @@
     <img src="lord_yosar/logo.jpeg" alt="Logo" width="425" height="142">
   </a>
   <h3 align="center">SC-INFO</h3>
-
   <p align="center">
     Paralel 1 Kelompok 2 (Asisten Praktikum: Indah Puspita dan Qoriatul Khairunnisa)
   </p>
@@ -56,7 +55,6 @@ memiliki fitur ....(fiturnya yg jadi apa aja bro?).
   </a>
   <p align="center">Use Case Diagram</p>
 </p>
-
 
 ### 2. Activity Diagram
 <br>
@@ -130,7 +128,6 @@ memiliki fitur ....(fiturnya yg jadi apa aja bro?).
   <img src="lord_yosar/testcase.jpg" alt="Logo" width="852" height="462">
   <p align="center">Testcase</p>
 </p>
-
 
 ## Saran untuk pengembangan selanjutnya
 -Memperbaiki tampilan dan menambahkan fitur-fitur di web, terutama fitur plan.
