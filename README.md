@@ -19,13 +19,13 @@
   <summary><h2 style="display: inline-block">Nama Anggota</h2></summary>
   <ol>
     <li>
-      Arhammirza Ibrahim (G64190007) -> Ketua, full stack, tampan people
+      Arhammirza Ibrahim (G64190007) -> Ketua, FullStack
     </li>
     <li>
       Aryo Aditya (G64190008) -> BackEnd
     </li>
     <li>Sigit Raditya Pangestu (G64190071) -> FrontEnd</li>
-    <li>Yosar Awandi Porseda (G64190076) -> Quality Assurance (pasang nama doang sebenernya)</li>
+    <li>Yosar Awandi Porseda (G64190076) -> Quality Assurance</li>
   </ol>
 </details>
 
@@ -134,7 +134,7 @@ posting, search, komen
 
 
 
-### Link aplikasi (jika sudah di deploy)
+### Link aplikasi
 http://infosc.epizy.com/
 
 ## Testing (Test cases)
@@ -147,4 +147,4 @@ http://infosc.epizy.com/
 
 
 ## Saran untuk pengembangan selanjutnya
-(mohon sarannya)
+memperbaiki tampilan dan menambahkan fitur-fitur di web, terutama fitur plan.
