@@ -138,7 +138,7 @@ Html, CSS, PHP, MySQL
 <p align="center">
 
   <img src="lord_yosar/screenshot_1.jpg" alt="Logo" width="639" height="449">
-  <img src="lord_yosar/screenshot_2.jpg" alt="Logo" width="639" height="449">
+  <img src="lord_yosar/infosc1.png" alt="Logo" width="639" height="449">
   <img src="lord_yosar/screenshot_3.jpg" alt="Logo" width="639" height="449">
   <p align="center">Screenshot</p>
 </p>
