@@ -10,6 +10,7 @@
   <p align="center"> Asprak : Indah Puspita, Qoriatul Khairunnisa </p>
 </p>
 
+#Laporan
 <!-- TABLE OF CONTENTS -->
 <summary><h2 style="display: inline-block">Nama Anggota</h2></summary>
 <ol>
@@ -21,9 +22,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Deskripsi Singkat Aplikasi
-SC-Info adalah aplikasi berbasis web yang berguna untuk memudahkan
+SC-Info adalah aplikasi berbasis web yang memudahkan
 mahasiswa mendapatkan informasi terkait mata kuliah supporting course. Aplikasi ini
-memiliki fitur ....(fiturnya yg jadi apa aja bro?).
+memiliki beberapa fitur, yaitu search-sc, plan-sc, dan discuss-sc.
 
 ## User Analysis
 ### User Story
@@ -65,7 +66,6 @@ memiliki fitur ....(fiturnya yg jadi apa aja bro?).
   <p align="center">Activity Diagram</p>
 </p>
 
-
 ### 3. Class Diagram
 <br>
 <p align="center">
@@ -84,7 +84,6 @@ memiliki fitur ....(fiturnya yg jadi apa aja bro?).
   <p align="center">ERD</p>
 </p>
 
-
 ### 5. Arsitektur sistem
 <br>
 <p align="center">
@@ -98,6 +97,7 @@ memiliki fitur ....(fiturnya yg jadi apa aja bro?).
 * Cari    : Mencari mata kuliah berdasarkan nama
 * Posting : Memposting sebuah topik di halaman discuss
 * Komen   : Mengomentari sebuah postingan
+
 ### 7. Fungsi CRUD
 1. Akun
   * Create  : User dapat membuat akun baru
@@ -109,6 +109,8 @@ memiliki fitur ....(fiturnya yg jadi apa aja bro?).
   * Read    : Web dapat mengambil data mata kuliah sehingga user dapat mencari mata kuliah melalui fitur search
   * Update  : Admin dapat membuat perubahan pada data mata kuliah
   * Delete  : Admin dapat menghapus data mata kuliah
+
+
 ## Hasil implementasi
 ### Screenshot sistem
 <br>
@@ -122,12 +124,14 @@ memiliki fitur ....(fiturnya yg jadi apa aja bro?).
 ### Link aplikasi
 -http://infosc.epizy.com/
 
+
 ## Testing (Test cases)
 <br>
 <p align="center">
   <img src="lord_yosar/testcase.jpg" alt="Logo" width="852" height="462">
   <p align="center">Testcase</p>
 </p>
+
 
 ## Saran untuk pengembangan selanjutnya
 -Memperbaiki tampilan dan menambahkan fitur-fitur di web, terutama fitur plan.
