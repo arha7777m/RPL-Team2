@@ -21,7 +21,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Deskripsi Singkat Aplikasi
-SC-Info adalah aplikasi berbasis web yang memudahkan
+Info-SC adalah aplikasi berbasis web yang memudahkan
 mahasiswa mendapatkan informasi terkait mata kuliah supporting course. Aplikasi ini
 memiliki beberapa fitur, yaitu search-sc, plan-sc, dan discuss-sc.
 
