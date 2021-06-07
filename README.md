@@ -3,7 +3,7 @@
   <a href="https://github.com/github_username/repo_name">
     <img src="lord_yosar/logo.jpeg" alt="Logo" width="425" height="142">
   </a>
-  <h3 align="center">SC-INFO</h3>
+  <h3 align="center">INFO-SC</h3>
   <p align="center">
     Paralel 1 Kelompok 2
   </p>
