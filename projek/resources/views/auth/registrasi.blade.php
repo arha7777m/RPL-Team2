@@ -56,11 +56,19 @@
                                 </div>
 								<div class="form-group">
 									<label for="signin-password" class="control-label sr-only">Password</label>
-									<input name="password" type="password" class="form-control @error('password') is-invalid @enderror" id="signin-password" placeholder="Password" required>
+									<input name="password" type="password" class="form-control @error('password') is-invalid @enderror" id="signin-password" placeholder="password" required>
                                     @error('password')
                                         <div class="alert alert-danger">{{ $message }}</div>
                                     @enderror
                                 </div>
+                                <div class="form-group">
+									<label for="signin-password" class="control-label sr-only">Password</label>
+									<input name="password_confirmation" type="password" class="form-control @error('password_confirmation') is-invalid @enderror" id="signin-password" placeholder="konfirmasi password" required>
+                                    @error('password_confirmation')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                                
 								<button type="submit" class="btn btn-primary btn-sm btn-block">Registrasi</button>
 							</form>
 						</div>
@@ -81,3 +89,4 @@
 </body>
 
 </html>
+

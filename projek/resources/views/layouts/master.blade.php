@@ -34,7 +34,8 @@
 		<footer>
 			<div class="container-fluid">
 				<p class="copyright">Web ini dibuat oleh <i class="fa fa-love">
-				</i><a href="https://sites.google.com/apps.ipb.ac.id/info-sc/home">Tampan People</a></p>
+				</i><a href="https://sites.google.com/apps.ipb.ac.id/info-sc/home">
+					<img src="{{asset('admin/assets/img/tampan2.png')}}" alt="Klorofil Logo"></a></p>
 			</div>
 		</footer>
 	</div>

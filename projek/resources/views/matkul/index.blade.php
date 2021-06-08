@@ -14,7 +14,7 @@
                 <div class="col-md-12">
                     <form class="input-group col-md-2 center-block" method="GET" action="/matkul">
                             <input name="cari" type="text" value="" class="form-control" placeholder="Cari nama matakuliah...">
-                            <span class="input-group-btn center-block"><button type="button" class="btn btn-primary">Cari</button></span>
+                            <span class="input-group-btn center-block"><button type="submit" class="btn btn-primary">Cari</button></span>
                     </form>     
                     <div class="panel">  
                         <div class="panel-heading">
