@@ -11,8 +11,4 @@ class Matkul extends Model
 
     protected $table = 'matkul';
     protected $fillable = ['kode','nama','sks','semester','prasyarat','deskripsi'];
-
-    public function plansc(){
-        return $this->belongsTo(PlanSC::class);
-    }
 }
