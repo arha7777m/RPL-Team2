@@ -8,6 +8,9 @@
     <div class="main">
         <div class="main-content">
             <div class="container-fluid">
+            @if (session('sukses'))
+                <a href="#" class="notification-item"><span class="dot bg-success"></span>{{session('sukses')}}</a>
+            @endif
                 <div class="row">
                     <div class="col-md-12">
                         <div class="panel">
@@ -21,7 +24,7 @@
 							<!-- TIMELINE -->
                                 @foreach($forum as $frm) <br>
                                 <div class="panel">
-                                    <div class=" col-sm-12 btn-primary btn-lg">
+                                    <div style="margin-bottom:7px;" class=" col-sm-12 btn-primary btn-lg">
                                         <div class="left">
                                             <p>
                                                 {{ $frm->user->name }} : {{ $frm->judul }}

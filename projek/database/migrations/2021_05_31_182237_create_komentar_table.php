@@ -15,7 +15,7 @@ class CreateKomentarTable extends Migration
     {
         Schema::create('komentar', function (Blueprint $table) {
             $table->increments('id')->unique();
-            $table->text('konten');
+            $table->text('konten', 300);
             $table->integer('user_id');
             $table->integer('forum_id');
             $table->integer('parent')->default(0);
