@@ -34,7 +34,7 @@
                                 @csrf
                                 <input type="hidden" name="forum_id" value="{{$forum->id}}">
                                 <input type="hidden" name="parent" value="0">
-                                <textarea name="konten" class="form-control" rows="3"></textarea>
+                                <textarea required name="konten" class="form-control" rows="3"></textarea>
                                 <input style="margin-top:10px;" type="submit" class="btn btn-primary" value="Balas">
                             </form>
                             <h4 style="margin-top:30px;">Komentar</h4>
@@ -50,7 +50,7 @@
                                                     <span style="margin-left:20px;" class="dropdown top-0 end-0">
                                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
                                                         <ul class="dropdown-menu">
-                                                            <li><a href="/komentar/{{$komen->forum_id}}/delete"> <span>Hapus</span></a></li>
+                                                            <li><a href="/komentar/{{$komen->id}}/delete"> <span>Hapus</span></a></li>
                                                         </ul>
                                                     </span>
                                             @endif
@@ -62,7 +62,7 @@
                                             @csrf
                                             <input type="hidden" name="forum_id" value="{{$forum->id}}">
                                             <input type="hidden" name="parent" value=" {{$komen->id}} ">
-                                            <input type="text" name="konten" class="form-control">
+                                            <input required type="text" name="konten" class="form-control">
                                             <input style="margin-top:10px;" type="submit" class="btn btn-primary btn-xs" value="Balas">
                                         </form>
                                     </div>

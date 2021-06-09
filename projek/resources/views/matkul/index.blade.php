@@ -37,6 +37,7 @@
                                     </div>
                                     <div class="right">
                                         <a href="/matkul/{{$d->id}}/view" class="btn btn-success btn-sm">Lihat</a>
+
                                         @if (auth()->user()->role == "admin")
                                             <a href="/matkul/{{$d->id}}/edit" class="btn btn-warning btn-sm">Ubah</a>
                                             <a href="/matkul/{{$d->id}}/delete" class="btn btn-danger btn-sm" 

@@ -16,7 +16,7 @@ class ForumController extends Controller
     public function create(Request $request){
         $request->request->add(['user_id' => auth()->user()->id]);
         $forum = Forum::create($request->all());
-        return redirect()->back()->with('sukses', 'Post Berhasil dibuat');
+        return redirect()->back()->with('sukses', 'Post berhasil dibuat');
     }
 
     public function view(Forum $forum){
@@ -26,7 +26,7 @@ class ForumController extends Controller
     public function postkomentar(Request $request){
         $request->request->add(['user_id' => auth()->user()->id]);
         $komentar = Komentar::create($request->all());
-        return redirect()->back()->with('sukses', 'komentar berhasil ditambahkan');
+        return redirect()->back()->with('sukses', 'Komentar berhasil ditambahkan');
     }
 
     public function delete($id)
@@ -37,15 +37,16 @@ class ForumController extends Controller
         return redirect('forum')->with('sukses', 'Post berhasil dihapus!');
     }
 
-    public function delete_komentar($forum_id)
+    public function delete_komentar($id)
     {
-        $komentar=Komentar::where('forum_id',$forum_id)->delete();
-        return redirect('/forum')->with('sukses', 'Post berhasil dihapus!');
+        $komentar=Komentar::where('id',$id)->delete();
+        $komentar=Komentar::where('parent', $id)->delete();
+        return redirect()->back()->with('sukses', 'Komentar berhasil dihapus!');
     }
 
     public function delete_komentar2($id)
     {
         $komentar=Komentar::where('id',$id)->delete();
-        return redirect('/forum')->with('sukses', 'Post berhasil dihapus!');
+        return redirect()->back()->with('sukses', 'Komentar berhasil dihapus!');
     }
 }

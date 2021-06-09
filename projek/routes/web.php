@@ -5,6 +5,7 @@ use App\Http\Controllers\MatkulController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ForumController;
 use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\PlanController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,9 +35,13 @@ Route::group(['middleware' => ['auth','checkRole:admin,mahasiswa']], function(){
     Route::get('/forum/{forum}/view', [ForumController::class, 'view']);
     Route::post('/forum/{forum}/view', [ForumController::class, 'postkomentar']);
     Route::get('/forum/{id}/delete', [ForumController::class, 'delete']);
-    Route::get('/komentar/{forum_id}/delete', [ForumController::class, 'delete_komentar']);
+    Route::get('/komentar/{id}/delete', [ForumController::class, 'delete_komentar']);
     Route::get('/komentar/{id}/delete2', [ForumController::class, 'delete_komentar2']);
 
     Route::get('/profilsaya', [ProfilController::class, 'index']);
     Route::post('/profilsaya', [ProfilController::class, 'update']);
+
+    Route::get('/plansaya', [PlanController::class, 'index']);
+    Route::get('/matkul/{id}/simpan', [PlanController::class, 'simpan']);
+    
 });

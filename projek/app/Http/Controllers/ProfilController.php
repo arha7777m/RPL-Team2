@@ -17,17 +17,32 @@ class ProfilController extends Controller
     }
 
     public function update(Request $request){
+        $this->validate($request, [
+            'name' => 'required',
+            'nim' => 'required',
+            'jurusan' => 'required'
+        ]);
         
         $user = User::where('id', Auth::user()->id)->first();
         $user->name = $request->name;
         $user->nim = $request->nim;
         $user->jurusan = $request->jurusan;
-        $user->email = $request->email;
+
+        if($request->email != $user->email)
+        {
+            $this->validate($request, [
+                'email' => 'required|email|unique:users'
+            ]);
+            $user->email = $request->email;
+        }
         if(!empty($request->password))
         {
+            $this->validate($request, [
+                'password' => 'min:6'
+            ]);
             $user->password = bcrypt($request->password);
         }
         $user->update();
-        return redirect('profilsaya');
+        return redirect('profilsaya')->with('sukses', 'Data profil berhasil diubah');
     }
 }

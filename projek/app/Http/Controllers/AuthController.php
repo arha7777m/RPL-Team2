@@ -15,11 +15,12 @@ class AuthController extends Controller
 
     public function postlogin(Request $request)
     {
+
         if(Auth::attempt($request->only('email','password')))
         {
             return redirect('/matkul');
         }
-        return redirect('/');
+        return redirect('/')->with('error','Email/Password tidak sesuai');
     }
 
     public function logout()
@@ -50,7 +51,7 @@ class AuthController extends Controller
             'password' => bcrypt($request->password)
 
         ]);
-        return redirect('/')->with('sukses','Data berhasil ditambahkan, silahkan login!');
+        return redirect('/')->with('sukses','Registrasi berhasil, silahkan login!');
     }
 
 }

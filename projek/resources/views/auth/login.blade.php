@@ -29,19 +29,43 @@
 				<div class="auth-box ">
 					<div class="left">
 						<div class="content">
+							@if(session('sukses'))
+								<div class="alert alert-success" role="alert">
+									{{session('sukses')}}
+								</div>
+							@endif
 							<div class="header">
 								<div class="text-center"><h1>INFO-SC</h1></div>
 								<p class="lead">Masuk</p>
+								@if(session('error'))
+								<div class="alert alert-danger" role="alert">
+									{{session('error')}}
+								</div>
+								@endif
 							</div>
 							<form class="form-auth-small" action="/postlogin" method="POST">
                                 {{ csrf_field() }}
 								<div class="form-group">
 									<label for="signin-email" class="control-label sr-only">Email</label>
-									<input name="email" type="email" class="form-control" id="signin-email" placeholder="Email">
+									<input name="email" type="email" class="form-control @error('email') is-invalid @enderror" id="signin-email" placeholder="Email">
+									@error('email')
+                                        <div class="alert alert-danger">
+											<strong>
+												{{ $message }}
+											</strong> 
+										</div>
+                                    @enderror
 								</div>
 								<div class="form-group">
 									<label for="signin-password" class="control-label sr-only">Password</label>
-									<input name="password" type="password" class="form-control" id="signin-password" placeholder="Password">
+									<input name="password" type="password" class="form-control  @error('password') is-invalid @enderror" id="signin-password" placeholder="Password">
+									@error('password')
+                                        <div class="alert alert-danger">
+											<strong>
+												{{ $message }}
+											</strong> 
+										</div>
+                                    @enderror
 								</div>
 								
 								<button type="submit" class="btn btn-primary btn-block">MASUK</button>

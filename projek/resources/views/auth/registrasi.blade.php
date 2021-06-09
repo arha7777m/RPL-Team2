@@ -71,6 +71,10 @@
                                 
 								<button type="submit" class="btn btn-primary btn-sm btn-block">Registrasi</button>
 							</form>
+							<div style="margin-top:20px;" class="text-center">
+								<p>Sudah punya akun?</p>
+								<a href="/" class="btn btn-primary btn-xs" role="button" data-bs-toggle="button">Login</a>
+							</div>
 						</div>
 					</div>
 					<div class="right">

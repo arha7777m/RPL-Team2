@@ -6,6 +6,9 @@
 <div class="main">
     <div class="main-content">
         <div class="container-fluid">
+        @if (session('sukses'))
+            <a href="#" class="notification-item"><span class="dot bg-success"></span>{{session('sukses')}}</a>
+        @endif
             <div class="panel">
                 <div class="panel-body">
                     <h1>Profil Saya</h1> <br>
@@ -29,9 +32,7 @@
                                 <input name="nim" type="text" class="form-control @error('nim') is-invalid @enderror" id="nim" value="{{$user->nim}}" required autocomplete="nim">
                                 
                                 @error('nim')
-                                    <span class="invalid-feedback">
-                                        <strong> {{$message}} </strong>
-                                    </span>
+                                    <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
                             </div>
                         </div>
@@ -53,20 +54,16 @@
                                 <input name="email" type="text" class="form-control @error('email') is-invalid @enderror" id="email" value="{{$user->email}}" required autocomplete="email">
                                 
                                 @error('email')
-                                    <span class="invalid-feedback">
-                                        <strong> {{$message}} </strong>
-                                    </span>
+                                    <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="password" class="col-sm-2 col-form-label">Password</label>
+                            <label for="password" class="col-sm-2 col-form-label">Password Baru</label>
                             <div class="col-sm-10">
                                 <input name="password" type="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="Kosongkan jika tidak ingin diubah">
                                 @error('password')
-                                    <span class="invalid-feedback">
-                                        <strong> {{$message}} </strong>
-                                    </span>
+                                    <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
                             </div>
                         </div>

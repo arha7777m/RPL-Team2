@@ -10,14 +10,14 @@
                     {{ csrf_field() }}
                     <div class="form-group{{$errors->has('judul') ? 'has-error' : ''}}">
                         <label for="exampleInputEmail1">Judul Topik</label>
-                        <input name="judul" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Apa topikmu?">
+                        <input required name="judul" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Apa topikmu?">
                         @if($errors->has('judul'))
                             <span class="help-block"> {{$errors->first('judul')}} </span>
                         @endif
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Konten</label>
-                        <textarea name="konten" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" rows="3" placeholder="Tulis apa yang kamu pikirkan"> </textarea>
+                        <textarea required name="konten" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" rows="3" placeholder="Tulis apa yang kamu pikirkan"></textarea>
                     </div>
             </div>
             <div class="modal-footer">
