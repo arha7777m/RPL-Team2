@@ -14,7 +14,7 @@
 ## Nama Anggota
 <ol>
   <li>Arhammirza Ibrahim (G64190007) -> PM, Fullstack Developer </li>
-  <li>Aryo Aditya (G64190008) -> Backend Devloper </li>
+  <li>Aryo Aditya (G64190008) -> Backend Developer </li>
   <li>Sigit Raditya Pangestu (G64190071) -> Frontend Developer </li>
   <li>Yosar Awandi Porseda (G64190076) -> Quality Assurance</li>
 </ol>
