@@ -1,8 +1,6 @@
 <br />
 <p align="center">
-  <a href="lord_yosar/logo.jpeg">
-    <img src="lord_yosar/logo.jpeg" alt="Logo" width="425" height="142">
-  </a>
+  <img src="lord_yosar/logo.jpeg" alt="Logo" width="425" height="142">
   <h3 align="center">INFO-SC</h3>
   <p align="center">
     Paralel 1 Kelompok 2
