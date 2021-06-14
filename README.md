@@ -48,45 +48,35 @@ memiliki beberapa fitur, yaitu search-sc, plan-sc, dan discuss-sc.
 ### 1. Use Case Diagram
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
     <img src="lord_yosar/User_Diagram.jpg" alt="Logo" width="581" height="401">
-  </a>
   <p align="center">Use Case Diagram</p>
 </p>
 
 ### 2. Activity Diagram
 <br>
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="lord_yosar/activity.png" alt="Logo" width="900" height="420">
-  </a>
+  <img src="lord_yosar/activity.png" alt="Logo" width="900" height="420">
   <p align="center">Activity Diagram</p>
 </p>
 
 ### 3. Class Diagram
 <br>
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="lord_yosar/class.png" alt="Logo" width="820" height="521">
-  </a>
+  <img src="lord_yosar/class.png" alt="Logo" width="820" height="521">
   <p align="center">Class Diagram</p>
 </p>
 
 ### 4. Entity Relationship Diagram
 <br>
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="lord_yosar/erd.jpg" alt="Logo" width="499" height="249">
-  </a>
+  <img src="lord_yosar/erd.jpg" alt="Logo" width="499" height="249">
   <p align="center">ERD</p>
 </p>
 
 ### 5. Arsitektur sistem
 <br>
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="lord_yosar/arsitektur.png" alt="Logo" width="652" height="597">
-  </a>
+  <img src="lord_yosar/arsitektur.png" alt="Logo" width="652" height="597">
   <p align="center">Arsitektur diagram</p>
 </p>
 
