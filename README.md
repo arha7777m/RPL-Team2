@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="lord_yosar/logo.jpeg">
     <img src="lord_yosar/logo.jpeg" alt="Logo" width="425" height="142">
   </a>
   <h3 align="center">INFO-SC</h3>
